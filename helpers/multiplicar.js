@@ -1,4 +1,3 @@
-const argv = require("/Users/Juan/Documents/Desarrollo/Udemy NodeJs/03- Bases de node/config/yargs");
 const fs = require('fs');
 var colors = require('colors');
 
