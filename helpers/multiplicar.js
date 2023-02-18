@@ -28,10 +28,10 @@ const crearArchivoTablaPromesa = (base = 1, listar = false, hasta = 5) => {
 
         }
 
-        fs.writeFile(`./salida/Tabla-Del-${base}-Hasta-El-${argv.h}.txt`, salida, (err) => {
+        fs.writeFile(`./salida/Tabla-Del-${base}.txt`, salida, (err) => {
             if (err) reject(err)
             else{
-                resolve(`./salida/Tabla-Del-${base}-Hasta-El-${argv.h}.txt`);
+                resolve(`./salida/Tabla-Del-${base}.txt`);
             }
         })
 
